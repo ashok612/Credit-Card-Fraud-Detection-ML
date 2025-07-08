@@ -1,70 +1,67 @@
-# Credit Card Fraud Detection Web App
-![My level of Imagery, lol](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fai-journey.com%2Fwp-content%2Fuploads%2F2019%2F06%2Ffraud-EMV-chip-credit-card.jpg&f=1&nofb=1)
+# 💳 Advanced Credit Card Fraud Detection using Machine Learning
+
+![Fraud Image](https://ai-journey.com/wp-content/uploads/2019/06/fraud-EMV-chip-credit-card.jpg)
+
+This project is part of my Master’s in Computer Applications (MCA). It uses **Machine Learning** to detect fraudulent credit card transactions and includes a **Flask web app** for real-time predictions.
+
+---
+
+## 🚀 Project Highlights
+
+### 🧠 Model Used:
+- **Logistic Regression**
+- Class-balanced training
+- Accuracy: **97.6%**
+- Recall: **89.6%**
+
+---
+
+## 🛠️ Tools & Technologies
+- Python, Pandas, NumPy
+- Scikit-learn (ML model)
+- Flask (web app framework)
+- HTML templates (home & result)
+- Heroku-ready setup (Procfile, gunicorn)
+- Git & GitHub for version control
+
+---
+
+## 📂 Project Structure
+
+Credit-Card-Fraud-Detection-ML/
+├── app.py
+├── model.pkl
+├── fraud_values.csv
+├── valid_values.csv
+├── requirements.txt
+├── Procfile
+├── README.md
+├── templates/
+│ ├── home.html
+│ └── result.html
 
 
-This repository contains the procedure we followed to deploy our web app of Credit Card Fraud detection on Heroku.
 
-Since the data for credit card fraud is not available in real form(due to confidentiality), and is availbale only in dimensionality reduced form, we will be sharing some of the test cases here.
+---
 
-## Specification about what we used and achieved.
+## 🧪 Test Data
+- `fraud_values.csv` → Sample fraudulent transaction values
+- `valid_values.csv` → Legitimate transaction values
 
-***************
+---
 
-### Model Training
+## 🌐 Web App
+This app allows users to input transaction features and predict whether it is **Fraud** or **Not Fraud** in real-time.
 
-- Architecture
-    - Logistic Regression with balanced class weight.
+To run locally:
+```bash
+pip install -r requirements.txt
+python app.py
 
-- Inference Results
-    - Accuracy: 0.976
-    - Recall: 0.896
+🚨 Fraud detection is critical in today's digital economy — this project simulates real-time solutions using machine learning and web technologies.
+🙋‍♂️ About Me
+Ashok
+🎓 Master of Computer Applications (MCA)
+📧 ashok.61217@gmail.com
+🔗 
 
-***************
-
-### Web App Production
-
-- Procfile
-    - Contains the type of app.
-- Requirements
-    - Libraries needed to run the app.
-- Templates
-    - Files required for rendering purpose
-- Static
-    - CSS styles
-- App
-    - Main file which will run our Web App.
-
-***************
-
-## Report
-
-A thorough report on what we did can be found in *_FinalReport.md_* or *_FinalReport.pdf_* file.
-
-****
-
-## Test Data for Fraud Transaction:
-
-Testing data for fraud transaction can be found in the ***"fraud_values.csv"*** file. 
-
-***************
-
-## Test Data for Valid Transaction:
-
-Testing data for a Valid transaction can be found in the ***"valid_values.csv"*** file.
-
-***************
-
-## Web App
-
-Our Credit Card Fraud Detection web app is available at: [Credit Card Fraud Detection](https://www.google.com/url?q=https://credit-card-fraud-detect-ion.herokuapp.com/&sa=D&source=hangouts&ust=1599890506172000&usg=AFQjCNFMw5kRvTCqhn-xm35d7hSq0sooYQ)
-
-The notebook used to train the model for this web app can be found [here](https://www.kaggle.com/hungrywolf/different-methods).
-
-To Contact Us:
-- Gajendra Saraswat
-    - [Kaggle](https://www.kaggle.com/sarques)    
-    - [LinkedIn](https://www.linkedin.com/in/gajendra-saraswat-221102165/)
-    - [Twitter](https://twitter.com/Saarques)
-- Ravikant Vijayvargiya
-    - [Kaggle](https://www.kaggle.com/hungrywolf)
-    - [LinkedIn](https://www.linkedin.com/in/ravikant-vijayvargiya/)
