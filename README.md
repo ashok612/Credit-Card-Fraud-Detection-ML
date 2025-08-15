@@ -9,7 +9,7 @@ This project is part of my Master’s in Computer Applications (MCA). It uses **
 ## 🚀 Project Highlights
 
 ### 🧠 Model Used:
-- **Logistic Regression**
+- **Random Forest**
 - Class-balanced training
 - Accuracy: **97.6%**
 - Recall: **89.6%**
